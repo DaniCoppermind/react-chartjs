@@ -1,0 +1,127 @@
+[
+  {
+    "id": "g1",
+    "title": "Producción General",
+    "text": "Variación en la producción de la empresa en cuanto a las diferentes ordenes generadas a los clientes",
+    "type": "Line",
+    "data": {
+      "labels": ["Lunes", "Martes", "Miercoles", "Jueves"],
+      "datasets": [
+        {
+          "label": "Producción Semana 1",
+          "data": [78, 208, 100, 75],
+          "backgroundColor": "rgba(0, 100, 0, 0.5)",
+          "borderColor": "rgba(0, 100, 0, 1)",
+          "borderWidth": 1
+        },
+        {
+          "label": "Producción Semana 2",
+          "data": [189, 45, 71, 200],
+          "backgroundColor": "rgba(153, 50, 204, 0.5)",
+          "borderColor": "rgba(153, 50, 204, 1)",
+          "borderWidth": 1
+        }
+      ]
+    }
+  },
+
+  {
+    "id": "g2",
+    "title": "Fabricación por tipo de producto",
+    "text": "Comportamiento en la salida de productos fabricados por tipo en diferentes semanas",
+    "type": "Bar",
+    "data": {
+      "labels": ["Camisas", "Pantalones", "Medias", "Bufandas"],
+      "datasets": [
+        {
+          "label": "Producción Semana 1",
+          "data": [78, 208, 100, 75],
+          "backgroundColor": "rgba(232, 255, 41, 0.5)",
+          "borderColor": "rgba(232, 255, 41, 1)",
+          "borderWidth": 1
+        },
+        {
+          "label": "Producción Semana 2",
+          "data": [189, 45, 8, 200],
+          "backgroundColor": "rgba(255, 58, 41, 0.5)",
+          "borderColor": "rgba(255, 58, 41, 1)",
+          "borderWidth": 1
+        },
+        {
+          "label": "Producción Semana 3",
+          "data": [345, 187, 216, 97],
+          "backgroundColor": "rgba(58, 41, 255, 0.5)",
+          "borderColor": "rgba(58, 41, 255, 1)",
+          "borderWidth": 1
+        }
+      ]
+    }
+  },
+
+  {
+    "id": "g3",
+    "title": "Distribución de la mercancía",
+    "text": "Distribución de la producción según la cadena y ubicación (local, regional, nacional o internacional)",
+    "type": "Pie",
+    "data": {
+      "labels": ["Locales", "Estadales", "Nacionales", "Internacionales"],
+      "datasets": [
+        {
+          "data": [40, 25, 89, 200],
+          "backgroundColor": [
+            "rgba(120, 18, 18,0.5)",
+            "rgba(22, 18, 120,0.5)",
+            "rgba(43, 250, 2,0.5)",
+            "rgba(255, 41, 242 ,0.5)"
+          ],
+          "borderColor": [
+            "rgba(120, 18, 18,1)",
+            "rgba(22, 18, 120,1)",
+            "rgba(43, 250, 2,1)",
+            "rgba(255, 41, 242 ,1)"
+          ],
+          "borderWidth": 1
+        }
+      ]
+    }
+  },
+
+  {
+    "id": "g4",
+    "title": "Materia Prima",
+    "text": "Ingresos y consumo de materia prima según tipo asignado a la producción especifica de los diferentes confeccionados de la Empresa",
+    "type": "Doughnut",
+    "data": {
+      "labels": ["Hilos", "Saten", "Permalina", "Lino"],
+      "datasets": [
+        {
+          "data": [356, 195, 270, 568],
+          "backgroundColor": [
+            "rgba(26, 188, 156 ,0.5)",
+            "rgba(211, 84, 0,0.5)",
+            "rgba(121, 125, 127,0.5)",
+            "rgba(91, 44, 111,0.5)"
+          ],
+          "borderColor": [
+            "rgba(26, 188, 156 ,1)",
+            "rgba(211, 84, 0,1)",
+            "rgba(121, 125, 127,1)",
+            "rgba(91, 44, 111,1)"
+          ],
+          "borderWidth": 1
+        }
+      ]
+    },
+    "options": {
+      "scales": {
+        "yAxes": [
+          {
+            "ticks": {
+              "beginAtZero": true
+            }
+          }
+        ]
+      }
+    }
+  }
+]
