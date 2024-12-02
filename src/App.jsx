@@ -7,7 +7,7 @@ function App() {
     <>
       <h1 className='text-center'>Dashboard</h1>
       <main className='container'>
-        <div className='row row-cols-1 rows-cols-md-2 g-4'>
+        <div className='row row-cols-1 row-cols-md-2 g-4'>
           {data.map((data, index) => (
             <Card
               key={index}

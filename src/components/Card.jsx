@@ -27,7 +27,7 @@ export const Card = ({ title, text, chartType, chartData }) => {
         </div>
         <div className='card-body'>
           <h5 className='card-title text-center'>{title}</h5>
-          <p className='card-text'>{text}</p>
+          <p className='card-text text-center'>{text}</p>
         </div>
       </div>
     </section>
